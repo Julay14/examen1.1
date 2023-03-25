@@ -1,0 +1,53 @@
+/* Estilos para el formulario */
+form.wapo {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+form.wapo label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+form.wapo input[type="text"],
+form.wapo input[type="number"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form.wapo input[type="text"]:focus,
+form.wapo input[type="number"]:focus {
+  outline: none;
+  border: 2px solid #f39c12;
+}
+
+form.wapo button {
+  display: block;
+  margin: 0 auto;
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form.wapo button:hover {
+  background-color: #e67e22;
+}
+
+form.wapo input[type="number"][readonly] {
+  background-color: #eee;
+  cursor: default;
+}
